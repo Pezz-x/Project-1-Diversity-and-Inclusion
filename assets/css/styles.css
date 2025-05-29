@@ -6,6 +6,13 @@
 
 /* Grid vis for testing layout */
 
+h2 {
+    font-family: "Cactus Classical Serif", serif;
+}
+
+p {
+    font-family: "Lato", sans-serif;;
+}
 
 .hero {
     background-color: white;
@@ -15,12 +22,31 @@
 }
 
 .herobox {
-    height: 100%;
-    width: 100%;
+    font-family: "Cactus Classical Serif", serif;
     background: rgba(0, 0, 0, 0.65);
     color: white;
-    margin: 2px;
+    width: auto;
+    display: block;
 }
 
+.keybox {
+    background-color: aqua;
+    border-radius: 1rem;
+    margin: 1px 1px 1px 1px;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+}
+
+.container-fluid{
+    background-color: aquamarine;
+    border: 1px;
+    border-color: black;
+    border-style: dashed;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+}
 
 
