@@ -7,3 +7,20 @@
 /* Grid vis for testing layout */
 
 
+.hero {
+    background-color: white;
+    background-image: url(/assets/images/Illustration_Diversity_Equity_GettyImages-1387862714_1440X810.jpg);
+    background-position: relative;
+    background-size: cover;
+}
+
+.herobox {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+    margin: 2px;
+}
+
+
+
