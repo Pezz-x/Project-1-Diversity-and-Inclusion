@@ -21,8 +21,12 @@
     --para-font: "Lato", sans-serif;
 }
 
-h2 {
-    font-family: "Cactus Classical Serif", serif;
+h1 {
+    font-family: var(--head-font);
+}
+
+h2, h3 {
+    font-family: var(--subhead-font);
 }
 
 p {
@@ -44,6 +48,10 @@ p {
     display: block;
 }
 
+#DEIex {
+    background-color: var(--lightblue);
+}
+
 .keybox {
     background-color: aqua;
     border-radius: 1rem;
@@ -52,7 +60,7 @@ p {
     padding: 10px 10px 20px 20px;
 }
 
-.container-fluid{
+.key-principles{
     background-color: aquamarine;
     border: 1px;
     border-color: black;
