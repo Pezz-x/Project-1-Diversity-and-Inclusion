@@ -14,7 +14,7 @@
     --darkblue: #03318C;
     --lightblue: #D2E2F2;
     --yellow: #F2C166;
-    --orange: #F29057;
+    --orange: #db9268;
     --red: #A61F1F;
     --head-font: "Cactus Classical Serif", serif;
     --subhead-font: "Montserrat", sans-serif;
@@ -53,23 +53,18 @@ p {
 }
 
 .keybox {
-    background-color: aqua;
+    background-color: white;
     border-radius: 1rem;
     margin: 1px 1px 1px 1px;
     text-align: center;
-    padding: 10px 10px 20px 20px;
 }
 
 .key-principles{
-    background-color: aquamarine;
-    border: 1px;
-    border-color: black;
-    border-style: dashed;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    padding: 10px 10px 10px 10px;
+    font-family: var(--head-font);
+    background-color: var(--yellow);
 }
 
+li {
+    font-family: var(--para-font);
+}
 
