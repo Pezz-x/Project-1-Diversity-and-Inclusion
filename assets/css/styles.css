@@ -21,11 +21,11 @@
     --para-font: "Lato", sans-serif;
 }
 
-h1 {
+h1, h2 {
     font-family: var(--head-font);
 }
 
-h2, h3 {
+h3 {
     font-family: var(--subhead-font);
 }
 
