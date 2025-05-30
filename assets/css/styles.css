@@ -21,8 +21,17 @@
     --para-font: "Lato", sans-serif;
 }
 
+.nav-link{
+    font-family: var(--subhead-font);
+}
+
+.nav-link:hover{
+    font-size: large;
+}
+
 h1, h2 {
     font-family: var(--head-font);
+    margin-bottom: 2rem;
 }
 
 h3 {
@@ -68,3 +77,6 @@ li {
     font-family: var(--para-font);
 }
 
+#additional{
+    background-color: #db9268;
+}

@@ -14,18 +14,21 @@
 
 <body>
     <!-- Nav bar -->
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm"></navid>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm just"></navid>
         <div class="container">
-            <a class="navbar-brand" href="/assets/images/earth-icon.webp">DEI Site</a>
+            <div class="navbar-brand d-flex align-items-center" href="navbar">
+                <img src="/assets/images/earth-icon.webp" alt="Earth Icon" width="40" height="40" class="me-2">
+                <h1>DEI</h1>
+            </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#DEIex" >DEI Explained</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#key" >Key principles</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#tips" >List of tips</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#addres" > Further resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#DEIex">DEI Explained</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#key">Key principles</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tips">List of tips</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#addres">Further resources</a></li>
                 </ul>
             </div>
         </div>
@@ -123,7 +126,7 @@
                                     <li>Host Open Discussions: Facilitate discussions about inequality and the importance of DEI.</li>
                                     <li>Encourage Everyone to Talk: Create a safe space where all voices can be heard.</li>
                                 </ul>
-                                <img src="/assets/images/acc_01.png" class="img-fluid rounded shadow-sm mt-3 mt-md-0">
+                                <img src="/assets/images/acc_01.png" class="img-fluid rounded shadow-sm mt-3 mt-md-0 d-none d-md-block">
                             </div>
                         </div>
                     </div>
@@ -145,7 +148,7 @@
                                     <li>Use inclusive language in job descriptions to attract a diverse pool of candidates.</li>
                                     <li>Offer flexible work options like remote or hybrid work to accommodate diverse needs.</li>
                                 </ul>
-                                <img src="/assets/images/acc_02.png" class="img-fluid rounded shadow-sm mt-3 mt-md-0">
+                                <img src="/assets/images/acc_02.png" class="img-fluid rounded shadow-sm mt-3 mt-md-0 d-none d-md-block">
                             </div>
                         </div>
                     </div>
@@ -165,7 +168,7 @@
                                     <li>Diverse Hiring Practices: Implement structured hiring processes that reduce bias in screening and interviewing.</li>
                                     <li>Screen Resumes Anonymously: Consider screening resumes without candidates' names to reduce bias.</li>
                                 </ul>
-                                <img src="/assets/images/acc_03.png" class="img-fluid rounded shadow-sm mt-3 mt-md-0">
+                                <img src="/assets/images/acc_03.png" class="img-fluid rounded shadow-sm mt-3 mt-md-0 d-none d-md-block">
                             </div>
                         </div>
                     </div>
@@ -185,7 +188,7 @@
                                     <li>Cultural Celebrations: Recognise and celebrate cultural and religious holidays.</li>
                                     <li>Internal Communication: Start an internal blog or forum to share diverse stories and perspectives.</li>
                                 </ul>
-                                <img src="/assets/images/acc_04.png" class="img-fluid rounded shadow-sm mt-3 mt-md-0">
+                                <img src="/assets/images/acc_04.png" class="img-fluid rounded shadow-sm mt-3 mt-md-0 d-none d-md-block">
                             </div>
                         </div>
                     </div>
@@ -205,7 +208,7 @@
                                     <li>Track Progress: Monitor DEI initiatives and track progress over time.</li>
                                     <li>Adjust as Needed: Be prepared to adjust strategies based on data and feedback.</li>
                                 </ul>
-                                <img src="/assets/images/acc_05.png" class="img-fluid rounded shadow-sm mt-3 mt-md-0">
+                                <img src="/assets/images/acc_05.png" class="img-fluid rounded shadow-sm mt-3 mt-md-0 d-none d-md-block">
                             </div>
                         </div>
                     </div>
@@ -230,7 +233,33 @@
         </div>
     </div>
 
-
+    <!-- Footer -->
+    <footer class="bg-light py-3 mt-5 border-top">
+        <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
+            <!-- Left: Earth Icon -->
+            <div class="mb-3 mb-md-0">
+                <img src="/assets/images/earth-icon.webp" alt="Earth Icon" width="40" height="40">
+            </div>
+            <!-- Center: Return to Top -->
+            <div class="mb-3 mb-md-0 text-center flex-grow-1">
+                <a href="#hero" class="text-decoration-none fw-bold text-dark">
+                    Return to Top
+                </a>
+            </div>
+            <!-- Right: Social Media Links -->
+            <div>
+                <a href="https://twitter.com/" target="_blank" rel="noopener" class="text-dark me-3" aria-label="Twitter">
+                    <i class="fab fa-twitter fa-lg"></i>
+                </a>
+                <a href="https://facebook.com/" target="_blank" rel="noopener" class="text-dark me-3" aria-label="Facebook">
+                    <i class="fab fa-facebook fa-lg"></i>
+                </a>
+                <a href="https://linkedin.com/" target="_blank" rel="noopener" class="text-dark" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin fa-lg"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
     <!-- Bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
