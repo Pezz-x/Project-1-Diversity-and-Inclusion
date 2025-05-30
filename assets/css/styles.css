@@ -4,7 +4,22 @@
 /* font-family: "Cactus Classical Serif", serif; */
 /* font-family: "Lato", sans-serif; */
 
-/* Grid vis for testing layout */
+/* darkblue: #03318C; */
+/* lightblue: #D2E2F2; */
+/* yellow: #F2C166; */
+/* orange: #F29057; */
+/* red: #A61F1F; */
+
+:root{
+    --darkblue: #03318C;
+    --lightblue: #D2E2F2;
+    --yellow: #F2C166;
+    --orange: #F29057;
+    --red: #A61F1F;
+    --head-font: "Cactus Classical Serif", serif;
+    --subhead-font: "Montserrat", sans-serif;
+    --para-font: "Lato", sans-serif;
+}
 
 h2 {
     font-family: "Cactus Classical Serif", serif;
@@ -22,7 +37,7 @@ p {
 }
 
 .herobox {
-    font-family: "Cactus Classical Serif", serif;
+    font-family: var(--head-font);
     background: rgba(0, 0, 0, 0.65);
     color: white;
     width: auto;

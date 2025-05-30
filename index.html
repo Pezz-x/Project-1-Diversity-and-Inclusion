@@ -13,34 +13,31 @@
 </head>
 
 <body>
-    <!-- Header -->
-    <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                <svg class="bi me-2" width="40" height="32">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <span class="fs-4">Diversity and Inclusion</span>
-            </a>
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#DEIex" class="nav-link">DEI Explained</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Key principles</a></li>
-                <li class="nav-item"><a href="#tips" class="nav-link">List of tips</a></li>
-                <li class="nav-item"><a href="#addres" class="nav-link"> Further resources</a></li>
-            </ul>
-        </header>
-    </div>
-    <!-- Hero -->
-    <div class="px-4 py-5 my-5 text-center hero">
-        <div class="herobox">
-            <h1 class="display-5 fw-bold ">Diversity and Inclusion</h1>
-            <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4">An introduction to understanding diversity, equity and inclusion for the workplace.
-                </p>
+    <!-- Nav bar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm"></navid>
+        <div class="container">
+            <a class="navbar-brand" href="/assets/images/earth-icon.webp">DEI Site</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#DEIex" >DEI Explained</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#key" >Key principles</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tips" >List of tips</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#addres" > Further resources</a></li>
+                </ul>
             </div>
         </div>
-    </div>
-    </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero" class="hero text-center">
+        <div class="herobox py-5">
+            <h1>Diversity and Inclusion</h1>
+            <p>An introduction to understanding diversity, equity and inclusion for the workplace.</p>
+        </div>
+    </section>
 
     <!-- DEI explained -->
     <div id="DEIex" class="container-fluid">
@@ -57,11 +54,11 @@
     </div>
 
     <!-- Key principles -->
-    <section class="container-fluid d-flex justify-content-center key-principles" id="principles">
+    <section id="key" class="container-fluid d-flex justify-content-center key-principles" id="principles">
         <div class="row justify-content-center">
             <h2 class="text-center mb-4">Key Principles</h2>
             <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center keybox">
-                <div class="box 1-w100">
+                <div class="box box-full-width">
                 <h4 class="fw-bold mb-0">Respect:</h4>
                 <p>Valuing and respecting individuals for their differences and treating them with dignity.</p>
                 </div>
