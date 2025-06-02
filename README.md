@@ -97,7 +97,7 @@ Google Fonts are used for a modern, readable look:
     ![Key Principles Screenshot](/assets/Readme_images/KeyPrin.PNG)
 
 -   **Tips Accordion Screenshot**  
-    ![Tips Accordion Screenshot](#)
+    ![Tips Accordion Screenshot](/assets/Readme_images/Accordian.PNG)
 
 -   **Further Resources Screenshot**  
     ![Further Resources Screenshot](/assets/Readme_images/links.PNG)
