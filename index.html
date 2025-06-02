@@ -14,28 +14,34 @@
 
 <body>
     <!-- Nav bar -->
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm just"></navid>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm just"
+        aria-label="Main navigation">
         <div class="container">
-            <div class="navbar-brand d-flex align-items-center" href="navbar">
+            <div class="navbar-brand d-flex align-items-center" href="navbar" aria-label="Homepage">
                 <img src="./assets/images/earth-icon.webp" alt="Earth Icon" width="40" height="40" class="me-2">
                 <h2>DEI</h2>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#DEIex">DEI Explained</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#key">Key principles</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#tips">List of tips</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#addres">Further resources</a></li>
+                <ul class="navbar-nav" aria-label="Primary site links">
+                    <li class="nav-item"><a class="nav-link" href="#DEIex" aria-label="Go to DEI Explained section">DEI
+                            Explained</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#key" aria-label="Go to Key principles section">Key
+                            principles</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tips" aria-label="Go to List of tips section">List
+                            of tips</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#addres"
+                            aria-label="Go to Further resources section">Further resources</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Hero -->
-    <section id="hero" class="hero text-center">
+    <section id="hero" class="hero text-center" aria-label="Introduction section">
         <div class="herobox py-5">
             <h1>Diversity and Inclusion</h1>
             <p>An introduction to understanding diversity, equity and inclusion for the workplace.</p>
@@ -43,14 +49,16 @@
     </section>
 
     <!-- DEI explained -->
-    <div id="DEIex" class="text-center py-4">
+    <div id="DEIex" class="text-center py-4" aria-label="DEI explained section">
         <div class="container">
             <h1>DEI explained</h1>
             <h3>Diversity: </h3>
-            <p> Recognising and valuing differences in individuals, including race, ethnicity, gender, sexual orientation,
+            <p> Recognising and valuing differences in individuals, including race, ethnicity, gender, sexual
+                orientation,
                 age, ability, and socioeconomic status</p>
             <h3>Equity:</h3>
-            <p> Addressing systemic disparities and ensuring fair access to opportunities and resources for all individuals,
+            <p> Addressing systemic disparities and ensuring fair access to opportunities and resources for all
+                individuals,
                 regardless of their background.</p>
             <h3>Inclusion:</h3>
             <p>Creating environments where everyone feels valued, respected, and has a sense of belonging, where their
@@ -59,7 +67,7 @@
     </div>
 
     <!-- Key principles -->
-    <section id="key" class="key-principles py-5">
+    <section id="key" class="key-principles py-5" aria-label="Key principles section">
         <div class="row justify-content-center">
             <h1 class="text-center mb-4">Key Principles</h1>
 
@@ -72,13 +80,15 @@
             <div class="col-lg-3 col-md-5 col-12 d-flex justify-content-center keybox">
                 <div class="col-md-6">
                     <h4 class="p-4 text-center">Accessibility</h4>
-                    <p>Ensuring that all individuals, regardless of ability, have access to opportunities and resources.</p>
+                    <p>Ensuring that all individuals, regardless of ability, have access to opportunities and resources.
+                    </p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-5 col-12 d-flex justify-content-center keybox">
                 <div class="col-md-6">
                     <h4 class="p-4 text-center">Inclusion</h4>
-                    <p>Creating environments where everyone feels valued, respected, and has a sense of belonging, where their voices are heard and their contributions are appreciated.</p>
+                    <p>Creating environments where everyone feels valued, respected, and has a sense of belonging, where
+                        their voices are heard and their contributions are appreciated.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-5 col-12 d-flex justify-content-center keybox">
@@ -90,43 +100,55 @@
             <div class="col-lg-3 col-md-5 col-12 d-flex justify-content-center keybox">
                 <div class="col-md-6">
                     <h4 class="p-4 text-center">Empathy</h4>
-                    <p>Understanding and sharing the feelings of others, particularly those who may be marginalized or face discrimination.</p>
+                    <p>Understanding and sharing the feelings of others, particularly those who may be marginalized or
+                        face discrimination.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-5 col-12 d-flex justify-content-center keybox">
                 <div class="col-md-6">
                     <h4 class="p-4 text-center">Belonging</h4>
-                    <p>Creating a culture where everyone feels that they are a valued part of the team or organisation and can share their own culture freely.</p>
+                    <p>Creating a culture where everyone feels that they are a valued part of the team or organisation
+                        and can share their own culture freely.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Accordian -->
-    <section id="tips" class="tips-section py-5">
+    <section id="tips" class="tips-section py-5" aria-label="List of tips section">
         <div class="container tips-container">
-        <h1 class="text-center mb-4">List of Tips</h1>
-            <div class="accordion" id="tipsAccordion">
+            <h1 class="text-center mb-4">List of Tips</h1>
+            <div class="accordion" id="tipsAccordion" aria-label="Tips accordion">
                 <!-- Accordian item 1 -->
 
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#tipOne" aria-expanded="true" aria-controls="tipOne">
-                        Foster a Culture of Respect and Inclusion
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#tipOne" aria-expanded="true" aria-controls="tipOne">
+                            Foster a Culture of Respect and Inclusion
                         </button>
                     </h2>
-                    <div id="tipOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#tipsAccordion">
+                    <div id="tipOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#tipsAccordion">
                         <div class="accordion-body">
                             <div class="d-md-flex align-items-start gap-4">
                                 <ul class="mb-0 flex-grow-1">
-                                    <li>Model Inclusion: Leaders should demonstrate inclusivity in their actions and interactions.</li>
-                                    <li>Mind Your Language: Be mindful of the language used, avoiding stereotypes and generalisations.</li>
-                                    <li>Promote Respect: Create a work environment where all employees feel respected and valued.</li>
-                                    <li>Listen to Your People: Encourage open dialogue and actively listen to employee concerns.</li>
-                                    <li>Host Open Discussions: Facilitate discussions about inequality and the importance of DEI.</li>
-                                    <li>Encourage Everyone to Talk: Create a safe space where all voices can be heard.</li>
+                                    <li>Model Inclusion: Leaders should demonstrate inclusivity in their actions and
+                                        interactions.</li>
+                                    <li>Mind Your Language: Be mindful of the language used, avoiding stereotypes and
+                                        generalisations.</li>
+                                    <li>Promote Respect: Create a work environment where all employees feel respected
+                                        and valued.</li>
+                                    <li>Listen to Your People: Encourage open dialogue and actively listen to employee
+                                        concerns.</li>
+                                    <li>Host Open Discussions: Facilitate discussions about inequality and the
+                                        importance of DEI.</li>
+                                    <li>Encourage Everyone to Talk: Create a safe space where all voices can be heard.
+                                    </li>
                                 </ul>
-                                <img src="../assets/images/acc_01.png" class="img-fluid rounded shadow-sm mt-3 mt-md-0 d-none d-md-block">
+                                <img src="../assets/images/acc_01.webp"
+                                    alt="Side Profile of a black woman on yellow background"
+                                    class="img-fluid rounded shadow-sm mt-3 mt-md-0 d-none d-md-block">
                             </div>
                         </div>
                     </div>
@@ -134,81 +156,108 @@
 
                 <!-- Accordian item 2 -->
                 <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tipTwo" aria-expanded="false" aria-controls="tipTwo">
-                    Implement Inclusive Practices
-                    </button>
-                </h2>
-                    <div id="tipTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#tipsAccordion">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#tipTwo" aria-expanded="false" aria-controls="tipTwo">
+                            Implement Inclusive Practices
+                        </button>
+                    </h2>
+                    <div id="tipTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#tipsAccordion">
                         <div class="accordion-body">
                             <div class="d-md-flex align-items-start gap-4">
                                 <ul class="mb-0 flex-grow-1">
-                                    <li>Develop strong policies that prohibit discrimination based on protected characteristics.</li>
+                                    <li>Develop strong policies that prohibit discrimination based on protected
+                                        characteristics.</li>
                                     <li>Ensure equal pay for equal work and address any pay disparities.</li>
-                                    <li>Use inclusive language in job descriptions to attract a diverse pool of candidates.</li>
-                                    <li>Offer flexible work options like remote or hybrid work to accommodate diverse needs.</li>
+                                    <li>Use inclusive language in job descriptions to attract a diverse pool of
+                                        candidates.</li>
+                                    <li>Offer flexible work options like remote or hybrid work to accommodate diverse
+                                        needs.</li>
                                 </ul>
-                                <img src="../assets/images/acc_02.png" class="img-fluid rounded shadow-sm mt-3 mt-md-0 d-none d-md-block">
+                                <img src="../assets/images/acc_02.webp"
+                                    alt="Side profile of a man Saudi man with blue background"
+                                    class="img-fluid rounded shadow-sm mt-3 mt-md-0 d-none d-md-block">
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Accordian item 3 -->
                 <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tipThree" aria-expanded="false" aria-controls="tipThree">
-                    Address Unconscious Bias
-                    </button>
-                </h2>
-                    <div id="tipThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#tipsAccordion">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#tipThree" aria-expanded="false" aria-controls="tipThree">
+                            Address Unconscious Bias
+                        </button>
+                    </h2>
+                    <div id="tipThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#tipsAccordion">
                         <div class="accordion-body">
                             <div class="d-md-flex align-items-start gap-4">
                                 <ul class="mb-0 flex-grow-1">
-                                    <li>Challenge Unconscious Bias: Educate employees about unconscious bias and its impact.</li>
-                                    <li>Diverse Hiring Practices: Implement structured hiring processes that reduce bias in screening and interviewing.</li>
-                                    <li>Screen Resumes Anonymously: Consider screening resumes without candidates' names to reduce bias.</li>
+                                    <li>Challenge Unconscious Bias: Educate employees about unconscious bias and its
+                                        impact.</li>
+                                    <li>Diverse Hiring Practices: Implement structured hiring processes that reduce bias
+                                        in screening and interviewing.</li>
+                                    <li>Screen Resumes Anonymously: Consider screening resumes without candidates' names
+                                        to reduce bias.</li>
                                 </ul>
-                                <img src="../assets/images/acc_03.png" class="img-fluid rounded shadow-sm mt-3 mt-md-0 d-none d-md-block">
+                                <img src="../assets/images/acc_03.webp"
+                                    alt="Side profile of an Asian woman with a orange background"
+                                    class="img-fluid rounded shadow-sm mt-3 mt-md-0 d-none d-md-block">
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Accordian item 4 -->
                 <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tipFour" aria-expanded="false" aria-controls="tipFour">
-                    Promote Diverse Thinking
-                    </button>
-                </h2>
-                    <div id="tipFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#tipsAccordion">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#tipFour" aria-expanded="false" aria-controls="tipFour">
+                            Promote Diverse Thinking
+                        </button>
+                    </h2>
+                    <div id="tipFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#tipsAccordion">
                         <div class="accordion-body">
                             <div class="d-md-flex align-items-start gap-4">
                                 <ul class="mb-0 flex-grow-1">
-                                    <li>Foster Diverse Perspectives: Encourage a variety of viewpoints and perspectives in meetings and decision-making.</li>
-                                    <li>Cultural Celebrations: Recognise and celebrate cultural and religious holidays.</li>
-                                    <li>Internal Communication: Start an internal blog or forum to share diverse stories and perspectives.</li>
+                                    <li>Foster Diverse Perspectives: Encourage a variety of viewpoints and perspectives
+                                        in meetings and decision-making.</li>
+                                    <li>Cultural Celebrations: Recognise and celebrate cultural and religious holidays.
+                                    </li>
+                                    <li>Internal Communication: Start an internal blog or forum to share diverse stories
+                                        and perspectives.</li>
                                 </ul>
-                                <img src="../assets/images/acc_04.png" class="img-fluid rounded shadow-sm mt-3 mt-md-0 d-none d-md-block">
+                                <img src="../assets/images/acc_04.webp"
+                                    alt="Side profile of a Sikh man in a turban on a green background"
+                                    class="img-fluid rounded shadow-sm mt-3 mt-md-0 d-none d-md-block">
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Accordian item 5 -->
                 <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tipFive" aria-expanded="false" aria-controls="tipFive">
-                    Measure and Track Progress
-                    </button>
-                </h2>
-                    <div id="tipFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#tipsAccordion">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#tipFive" aria-expanded="false" aria-controls="tipFive">
+                            Measure and Track Progress
+                        </button>
+                    </h2>
+                    <div id="tipFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#tipsAccordion">
                         <div class="accordion-body">
                             <div class="d-md-flex align-items-start gap-4">
                                 <ul class="mb-0 flex-grow-1">
-                                    <li>Gather Data: Use surveys and other data collection methods to identify areas for improvement.</li>
+                                    <li>Gather Data: Use surveys and other data collection methods to identify areas for
+                                        improvement.</li>
                                     <li>Track Progress: Monitor DEI initiatives and track progress over time.</li>
-                                    <li>Adjust as Needed: Be prepared to adjust strategies based on data and feedback.</li>
+                                    <li>Adjust as Needed: Be prepared to adjust strategies based on data and feedback.
+                                    </li>
                                 </ul>
-                                <img src="../assets/images/acc_05.png" class="img-fluid rounded shadow-sm mt-3 mt-md-0 d-none d-md-block">
+                                <img src="../assets/images/acc_05.webp"
+                                    alt="Side profile of a old white woman on a red background"
+                                    class="img-fluid rounded shadow-sm mt-3 mt-md-0 d-none d-md-block">
                             </div>
                         </div>
                     </div>
@@ -218,40 +267,51 @@
     </section>
 
     <!-- Additional resorces -->
-    <div id="additional" class="additional text-center py-5">
+    <div id="additional" class="additional text-center py-5" aria-label="Further resources section">
         <div class="row justify-content-center">
             <h2 id="addres text-center mb-4">Further Resources</h2>
-            <ul>
-                <li><a href="https://unglobalcompact.org/take-action/action/dei" target="_blank" rel="noopener">UN Global Compact - Diversity, Equity and Inclusion (DEI)</a></li>
-                <li><a href="https://www.achievers.com/blog/diversity-and-inclusion/" target="_blank" rel="noopener">Achievers.com - Diversity and inclusion in the workplace</a></li>
-                <li><a href="https://www.forbes.com/councils/forbesbusinesscouncil/2024/09/26/strategies-for-fostering-diverse-and-inclusive-workplaces/" target="_blank" rel="noopener">Forbes - Strategies For Diverse And Inclusive Workplaces</a></li>
-                <li><a href="https://ecampusontario.pressbooks.pub/qualitycourses/chapter/the-principles-of-inclusion-diversity/" target="_blank" rel="noopener">Open Libary - The Principles of Inclusion & Diversity</a></li>
-                <li><a href="https://www.aph.gov.au/~/media/05%20About%20Parliament/54%20Parliamentary%20Depts/541%20Dept%20of%20Senate/workplace_diversity_program.pdf" target="_blank" rel="noopener">Australian gov Workplace Diversity Program PDF</a></li>
-                <li><a href="https://www.techtarget.com/searchhrsoftware/definition/diversity-equity-and-inclusion-DEI#:~:text=Diversity%2C%20equity%20and%20inclusion%20are,underrepresented%20people%20in%20the%20workplace" target="_blank" rel="noopener">Tech Target - What is DEI? Diversity, equity and inclusion explained</a></li>
-                <li><a href="https://www.diversityresources.com/what-is-a-dei-strategy/" target="_blank" rel="noopener">Diversity Resources - What Is a DEI Strategy?</a></li>
+            <ul aria-label="List of further resources">
+                <li><a href="https://unglobalcompact.org/take-action/action/dei" target="_blank" rel="noopener">UN
+                        Global Compact - Diversity, Equity and Inclusion (DEI)</a></li>
+                <li><a href="https://www.achievers.com/blog/diversity-and-inclusion/" target="_blank"
+                        rel="noopener">Achievers.com - Diversity and inclusion in the workplace</a></li>
+                <li><a href="https://www.forbes.com/councils/forbesbusinesscouncil/2024/09/26/strategies-for-fostering-diverse-and-inclusive-workplaces/"
+                        target="_blank" rel="noopener">Forbes - Strategies For Diverse And Inclusive Workplaces</a></li>
+                <li><a href="https://ecampusontario.pressbooks.pub/qualitycourses/chapter/the-principles-of-inclusion-diversity/"
+                        target="_blank" rel="noopener">Open Libary - The Principles of Inclusion & Diversity</a></li>
+                <li><a href="https://www.aph.gov.au/~/media/05%20About%20Parliament/54%20Parliamentary%20Depts/541%20Dept%20of%20Senate/workplace_diversity_program.pdf"
+                        target="_blank" rel="noopener">Australian gov Workplace Diversity Program PDF</a></li>
+                <li><a href="https://www.techtarget.com/searchhrsoftware/definition/diversity-equity-and-inclusion-DEI#:~:text=Diversity%2C%20equity%20and%20inclusion%20are,underrepresented%20people%20in%20the%20workplace"
+                        target="_blank" rel="noopener">Tech Target - What is DEI? Diversity, equity and inclusion
+                        explained</a></li>
+                <li><a href="https://www.diversityresources.com/what-is-a-dei-strategy/" target="_blank"
+                        rel="noopener">Diversity Resources - What Is a DEI Strategy?</a></li>
             </ul>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer class="bg-light py-3 border-top">
+    <footer class="bg-light py-3 border-top" aria-label="Site footer">
         <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
             <div class="mb-3 mb-md-0">
                 <img src="./assets/images/earth-icon.webp" alt="Earth Icon" width="40" height="40">
             </div>
             <div class="mb-3 mb-md-0 text-center flex-grow-1">
-                <a href="#hero" class="text-decoration-none fw-bold text-dark">
+                <a href="#hero" class="text-decoration-none fw-bold text-dark" aria-label="Return to top of page">
                     Return to Top
                 </a>
             </div>
             <div>
-                <a href="https://twitter.com/" target="_blank" rel="noopener" class="text-dark me-3" aria-label="Twitter">
+                <a href="https://twitter.com/" target="_blank" rel="noopener" class="text-dark me-3"
+                    aria-label="Twitter">
                     <i class="fa-brands fa-twitter"></i>
                 </a>
-                <a href="https://facebook.com/" target="_blank" rel="noopener" class="text-dark me-3" aria-label="Facebook">
+                <a href="https://facebook.com/" target="_blank" rel="noopener" class="text-dark me-3"
+                    aria-label="Facebook">
                     <i class="fa-brands fa-facebook"></i>
                 </a>
-                <a href="https://linkedin.com/" target="_blank" rel="noopener" class="text-dark me-3" aria-label="LinkedIn">
+                <a href="https://linkedin.com/" target="_blank" rel="noopener" class="text-dark me-3"
+                    aria-label="LinkedIn">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
             </div>
