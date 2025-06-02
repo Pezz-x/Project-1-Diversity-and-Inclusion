@@ -91,16 +91,16 @@ Google Fonts are used for a modern, readable look:
 ## Webpage Preview
 
 -   **DEI Explained Section Screenshot**  
-    ![DEI Explained Screenshot](#)
+    ![DEI Explained Screenshot](/assets/Readme_images/DEI-Explained.PNG)
 
 -   **Key Principles Section Screenshot**  
-    ![Key Principles Screenshot](#)
+    ![Key Principles Screenshot](/assets/Readme_images/KeyPrin.PNG)
 
 -   **Tips Accordion Screenshot**  
     ![Tips Accordion Screenshot](#)
 
 -   **Further Resources Screenshot**  
-    ![Further Resources Screenshot](#)
+    ![Further Resources Screenshot](/assets/Readme_images/links.PNG)
 
 ---
 
