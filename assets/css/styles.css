@@ -1,14 +1,5 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-/* font-family: "Montserrat", sans-serif; */
-/* font-family: "Cactus Classical Serif", serif; */
-/* font-family: "Lato", sans-serif; */
-
-/* darkblue: #03318C; */
-/* lightblue: #D2E2F2; */
-/* yellow: #F2C166; */
-/* orange: #F29057; */
-/* red: #A61F1F; */
 
 :root{
     --darkblue: #03318C;
@@ -19,6 +10,10 @@
     --head-font: "Cactus Classical Serif", serif;
     --subhead-font: "Montserrat", sans-serif;
     --para-font: "Lato", sans-serif;
+}
+
+.nav-title{
+    font-family: var(--head-font);
 }
 
 .nav-link{
@@ -44,7 +39,7 @@ p {
 
 .hero {
     background-color: white;
-    background-image: url(../images/Illustration_Diversity_Equity_GettyImages-1387862714_1440X810.jpg);
+    background-image: url(../images/Illustration_Diversity_Equity_GettyImages-1387862714_1440X810.webp);
     background-position: relative;
     background-size: cover;
 }
@@ -73,10 +68,8 @@ p {
     background-color: var(--yellow);
 }
 
-.tips-section{
-    background-image: url(./assets/images/dei-image+-+Janelle+Somoano.webp);
-    background-color: rgba(255, 255, 255, 0.7);
-    background-blend-mode: lighten;
+#tips {
+    background-color: var(--orange);
 }
 
 li {
@@ -84,5 +77,5 @@ li {
 }
 
 #additional{
-    background-color: #db9268;
+    background-color: var(--lightblue);
 }
